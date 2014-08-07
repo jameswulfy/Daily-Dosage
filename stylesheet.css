@@ -1,0 +1,36 @@
+.navbar-text {
+	font-size: 25px;
+	font-family: 'Bree Serif', serif;
+	margin-left: 25px;
+}
+
+.buttons {
+	float: right;
+	margin-right: 200px;
+	/*margin-top: 10px;*/
+	margin-bottom: 10px;
+}
+
+html {
+	background: url("mountain.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.navbar {
+	border: 1px solid;
+	border-radius: 0;
+	height: 65px;
+}
+
+.container {
+	width: 500px;
+	height: 200px;
+	text-align: left;
+	float: right;
+	margin-left: 100%;
+	margin-right: 150px;
+	margin-top: 20px;
+	font-size: 80px;
+	color: black;
+	font-family: 'Poiret One', cursive;
+}
