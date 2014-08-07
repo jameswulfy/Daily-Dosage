@@ -34,3 +34,13 @@ html {
 	color: black;
 	font-family: 'Poiret One', cursive;
 }
+
+.navbuttons {
+	float:right;
+	margin-right: 100px;
+	margin-top: 10px;
+	font-family: 'Poiret One', cursive;
+	font-color: black;
+	font-size: 18px
+}
+
