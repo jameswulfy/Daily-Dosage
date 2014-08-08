@@ -44,3 +44,10 @@ html {
 	font-size: 18px
 }
 
+.arrow {
+	vertical-align: bottom;
+	float: right;
+	margin-right: 700px;
+	margin-top: 300px;
+}
+
