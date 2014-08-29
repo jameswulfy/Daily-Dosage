@@ -12,7 +12,7 @@
 }
 
 html {
-	background: url("mountain.jpg") no-repeat center center fixed;
+	background: url("views/mountain.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -39,9 +39,13 @@ html {
 	float:right;
 	margin-right: 100px;
 	margin-top: 10px;
+}
+
+li > a {
+	color: #fff;
 	font-family: 'Poiret One', cursive;
-	font-color: black;
-	font-size: 18px
+	font-size: 18px;
+	color: #777;
 }
 
 .arrow {
@@ -50,4 +54,17 @@ html {
 	margin-right: 700px;
 	margin-top: 300px;
 }
+
+#video {
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	height: 25px;
+	width: 100px;
+	text-align: center;
+}
+
+
 
