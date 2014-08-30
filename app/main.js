@@ -5,19 +5,15 @@
 $(document).ready(function(){
 
 	$("#video").click(function() {
-		var question1 = prompt("Who was the first president of the United States?");
-		if (question1 == "George Washington") {
-			alert("well done, just two more questions");
-		}
+		window.location.href = 'video/index.html';
+    	return false;
+		// var question1 = prompt("First! riddle me this. How many kids were in the Brady Bunch?");
+		// if (question1 == 6) {
+		// 	alert("Enjoy");
+		// }
+		// else {
+		// 	alert("oops think again...");
+		// }
 
-		var question2 = prompt("What is the capitol of Mexico?");
-		if (question2 == "Mexico City") {
-			alert("Ok smarty pants almost there!");
-		}
-
-		var question3 = prompt("Do you love Daily Dosage?");
-		if (question3 == "yes") {
-			alert("We love you too! Here is the video of the day!");
-		}
 	});
 });

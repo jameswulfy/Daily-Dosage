@@ -52,7 +52,7 @@ li > a {
 	vertical-align: bottom;
 	float: right;
 	margin-right: 700px;
-	margin-top: 300px;
+	margin-top: 350px;
 }
 
 #video {
@@ -65,6 +65,12 @@ li > a {
 	width: 100px;
 	text-align: center;
 	background: none;
+	transition: all .1s linear;
+}
+
+#video:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
 }
 
 
