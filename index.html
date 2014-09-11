@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" ng-app="dailyDosage">
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
@@ -9,7 +9,7 @@
 		<title>Video Of The Day</title>
 	</head>
 
-	<body>
+	<body ng-controller="searchCtrl">
 		<!-- navbar fixed logo, two buttons 'About' 'Home' -->
  		<div class="navigation">
  			<nav class="navbar navbar-inverse" role="navigation">
@@ -31,16 +31,21 @@
 		</div>
 		<div class="arrow" style="text-align: center;">
 			<button id="video">Watch Video</button>
-
-		</divs>
+			<!-- <button id="search" ng-click=search()>search</button> -->
+		</div>
 
 		<!-- arrow down button linked to video page -->
 		<!-- <div class="imgcontainer">
 			<img src="arrowdown.png"/>
 		</div> -->
 		
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
 
-		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="app/app.js"></script>
+		<script src="app/controllers.js"></script>
+		<script src="app/youtubeservice.js"></script>
 		<script src="app/main.js"></script>
+		<script src="app/node.js"></script>
 	</body>
 </html>
